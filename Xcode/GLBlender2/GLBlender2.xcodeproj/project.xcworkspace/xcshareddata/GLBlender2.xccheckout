@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>614CBE4A-AEA6-4E65-975F-E9CBB9548BD8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GLBlender2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>05A716EE-E4DB-45B0-8517-38F73B64DB77</key>
+		<string>https://github.com/ricardo-rendoncepeda/GLBlender2.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Xcode/GLBlender2/GLBlender2.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>05A716EE-E4DB-45B0-8517-38F73B64DB77</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ricardo-rendoncepeda/GLBlender2.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>05A716EE-E4DB-45B0-8517-38F73B64DB77</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>05A716EE-E4DB-45B0-8517-38F73B64DB77</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GLBlender2</string>
+		</dict>
+	</array>
+</dict>
+</plist>

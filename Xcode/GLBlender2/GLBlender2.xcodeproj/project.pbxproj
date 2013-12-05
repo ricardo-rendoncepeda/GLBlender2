@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE1B8EB31846786000631A19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1B8EB21846786000631A19 /* Images.xcassets */; };
 		AE7558171787DA48000026A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7558161787DA48000026A9 /* UIKit.framework */; };
 		AE7558191787DA48000026A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7558181787DA48000026A9 /* Foundation.framework */; };
 		AE75581B1787DA48000026A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE75581A1787DA48000026A9 /* CoreGraphics.framework */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE1B8EB21846786000631A19 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AE7558131787DA48000026A9 /* GLBlender2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLBlender2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE7558161787DA48000026A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AE7558181787DA48000026A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -104,6 +106,7 @@
 				AE7558391787DB15000026A9 /* MainViewController.h */,
 				AE75583A1787DB15000026A9 /* MainViewController.m */,
 				AEC68E5817DED6AD00A64B4F /* Resources */,
+				AE1B8EB21846786000631A19 /* Images.xcassets */,
 				AE75581D1787DA48000026A9 /* Supporting Files */,
 			);
 			path = GLBlender2;
@@ -186,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE7558211787DA48000026A9 /* InfoPlist.strings in Resources */,
+				AE1B8EB31846786000631A19 /* Images.xcassets in Resources */,
 				AE7558291787DA48000026A9 /* Default.png in Resources */,
 				AE75582B1787DA48000026A9 /* Default@2x.png in Resources */,
 				AE75582D1787DA48000026A9 /* Default-568h@2x.png in Resources */,
@@ -282,9 +286,12 @@
 		AE7558311787DA48000026A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GLBlender2/GLBlender2-Prefix.pch";
 				INFOPLIST_FILE = "GLBlender2/GLBlender2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -293,9 +300,12 @@
 		AE7558321787DA48000026A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GLBlender2/GLBlender2-Prefix.pch";
 				INFOPLIST_FILE = "GLBlender2/GLBlender2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
