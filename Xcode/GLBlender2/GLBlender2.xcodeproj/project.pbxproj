@@ -14,9 +14,6 @@
 		AE7558211787DA48000026A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE75581F1787DA48000026A9 /* InfoPlist.strings */; };
 		AE7558231787DA48000026A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7558221787DA48000026A9 /* main.m */; };
 		AE7558271787DA48000026A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7558261787DA48000026A9 /* AppDelegate.m */; };
-		AE7558291787DA48000026A9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AE7558281787DA48000026A9 /* Default.png */; };
-		AE75582B1787DA48000026A9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE75582A1787DA48000026A9 /* Default@2x.png */; };
-		AE75582D1787DA48000026A9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE75582C1787DA48000026A9 /* Default-568h@2x.png */; };
 		AE7558341787DAA6000026A9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE7558331787DAA6000026A9 /* MainStoryboard.storyboard */; };
 		AE7558361787DAD1000026A9 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7558351787DAD1000026A9 /* GLKit.framework */; };
 		AE7558381787DAD7000026A9 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7558371787DAD7000026A9 /* OpenGLES.framework */; };
@@ -190,9 +187,6 @@
 			files = (
 				AE7558211787DA48000026A9 /* InfoPlist.strings in Resources */,
 				AE1B8EB31846786000631A19 /* Images.xcassets in Resources */,
-				AE7558291787DA48000026A9 /* Default.png in Resources */,
-				AE75582B1787DA48000026A9 /* Default@2x.png in Resources */,
-				AE75582D1787DA48000026A9 /* Default-568h@2x.png in Resources */,
 				AE7558341787DAA6000026A9 /* MainStoryboard.storyboard in Resources */,
 				AEC68E5E17DED6AD00A64B4F /* cube.mtl in Resources */,
 				AEC68E5F17DED6AD00A64B4F /* cube.obj in Resources */,
